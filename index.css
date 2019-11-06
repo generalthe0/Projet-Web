@@ -1,0 +1,47 @@
+.myHeader {
+    height: 17%;
+    width: 100%;
+    position: fixed;
+    top : 0;
+    left : 0;
+    background-color: #ebebeb;
+    z-index: 1;
+}
+#logoCesi img{
+    max-width: 13%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#headerTitle a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 400px;
+    margin-left: 10%;
+}
+#headerTitle a:hover{
+    color:  #929292;
+}
+.mySidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #929292;
+    z-index: 0;
+}
+.mySidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    text-align: start;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+.mySidebar a:hover {
+    color: #ffffff;
+}
